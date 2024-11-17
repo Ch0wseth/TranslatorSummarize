@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZF", "AZF\AZF.csproj", "{55A2258B-203D-4873-9BF5-ADBCF2B9421A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AZF (1)", "AZF", "{B57FD4BA-34EB-4B3C-A463-B8C41F80993C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{8CAE6DF3-D1F3-4EA0-9BA9-5398C2141A8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{DFEA7137-94D8-4D2B-A2E7-C506BE09641D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{11E20957-AD07-4449-B2FE-CFDA86F08A8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "AZF\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{0DE141B3-EB79-491C-B061-711D2BBFFED2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A2258B-203D-4873-9BF5-ADBCF2B9421A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A2258B-203D-4873-9BF5-ADBCF2B9421A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A2258B-203D-4873-9BF5-ADBCF2B9421A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A2258B-203D-4873-9BF5-ADBCF2B9421A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE141B3-EB79-491C-B061-711D2BBFFED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE141B3-EB79-491C-B061-711D2BBFFED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE141B3-EB79-491C-B061-711D2BBFFED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE141B3-EB79-491C-B061-711D2BBFFED2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CAE6DF3-D1F3-4EA0-9BA9-5398C2141A8E} = {B57FD4BA-34EB-4B3C-A463-B8C41F80993C}
+		{DFEA7137-94D8-4D2B-A2E7-C506BE09641D} = {8CAE6DF3-D1F3-4EA0-9BA9-5398C2141A8E}
+		{11E20957-AD07-4449-B2FE-CFDA86F08A8F} = {DFEA7137-94D8-4D2B-A2E7-C506BE09641D}
+		{0DE141B3-EB79-491C-B061-711D2BBFFED2} = {11E20957-AD07-4449-B2FE-CFDA86F08A8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B62267F7-6A38-470B-956C-F2FB34B159A7}
+	EndGlobalSection
+EndGlobal
